@@ -15,7 +15,7 @@ body {
   align-items: center;
   background: #252b32;
   display: flex;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: clamp(16px, 5vw, 32px);
   justify-content: center;
   margin: 0;
@@ -24,7 +24,9 @@ body {
 }
 
 button {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: transparent;
   border: 0;
   color: #fff;
@@ -50,6 +52,8 @@ button > span {
   position: relative;
   transition: transform var(--motion-duration) var(--motion-ease);
   z-index: 1;
+  text-align: left;
+  line-height: 1.2;
 }
 
 button:hover > span {
@@ -79,4 +83,4 @@ button:hover > svg > path {
 
 button:active > svg > path {
   d: path("M0,0 C30,10 70,10 100,0 C95,30 95,70 100,100 C70,90 30,90 0,100 C5,70 5,30 0,0");
-}
+}/*# sourceMappingURL=main.css.map */
