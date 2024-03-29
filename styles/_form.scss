@@ -1,0 +1,100 @@
+.label,
+label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    display: block;
+}
+
+.wager-selection .label,
+.wager-selection label {
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    display: block;
+    color: rgb(146, 146, 146);
+}
+
+// Input
+input,
+input.form-control,
+// select, 
+select.form-select {
+  border: 1px solid #999999;
+  appearance: none;
+  border-radius: var(--bs-border-radius) !important;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+
+  &:focus, 
+  &:focus-visible {
+    outline: none !important;
+    background-color: var(--bs-body-bg);
+    border-color: #292929;
+    box-shadow: none;
+  }
+}
+
+.input-group {
+  position: relative;
+  margin-left: 0;
+
+  > span {
+    position: absolute;
+    top: 0;
+    // bottom: 0;
+    bottom: 0.5rem;
+    background: transparent;
+    pointer-events: none;
+    color: #222020;
+    font-size: 1.75rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  &.left-inner-icon {
+    span {
+        left: 0;
+      }
+      input {
+        padding-left: 2rem;
+      }
+  }
+
+  &.right-inner-icon {
+    span {
+        right: 0;
+      }
+      input {
+        padding-right: 2.5rem;
+      }
+  }
+
+  &.input-copy {
+    .form-submit {
+      color: #2083EF;
+      font-weight: 600;
+      padding: 0 0.65rem 0 0.5rem;
+      background: #ECECEC;
+      border-top-right-radius: 0.25rem !important;
+      border-bottom-right-radius: 0.25rem !important;
+      border: 1px solid #999999;
+      gap: 0.25rem;
+
+      span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .form-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    bottom: 0.5rem;
+  }
+}

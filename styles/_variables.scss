@@ -1,0 +1,90 @@
+// Betting Kiosko Theme Variables
+
+:root {
+  // Open Sans Font
+  --font-family-Open-Sans: "Open Sans", arial, sans-serif;
+
+  // monospace Font
+  --font-family-monospace: "Lucida Console", courier, monospace;
+
+  // Material Symbols Icon Font
+  --material-symbol-font: "Material Symbols Outlined";
+
+  // Primary color palette
+  --bk-primary-red: #e70033;
+  --bk-primary-orange: #ff7633;
+  --bk-primary-yellow: #f1c319; // B2B palette
+  --bk-primary-green: #6fd85a;
+  --bk-primary-blue: #0093c9;
+  // --bk-primary-blue: #6EB6FF;
+    --bk-primary-purple: #652f6c; // B2B palette
+  --bk-black: #000;
+  --bk-white: #fff;
+
+  // Gray color palette
+  --bk-gray-100: #f8f9fa;
+  --bk-gray-200: #e5ebed;
+  --bk-gray-300: #dee2e6;
+  --bk-gray-400: #ced4da;
+  --bk-gray-500: #adb5bd;
+  --bk-gray-600: #5f6a72;
+  --bk-gray-700: #495057;
+  --bk-gray-800: #333d47;
+  --bk-gray-900: #212529;
+
+  --bk-gray-light: #F5F5F5; // backgrounds borders
+  --bk-gray-medium: #EAEDF1;
+  --bk-gray: #959595;
+  --bk-gray-dark: #323232;
+  --bk-gray-darker: #0C0D0D;
+  --bk-gray-border: #D9D9D9;
+
+
+  // Basic elements
+  --bk-text-color: var(--bk-gray-800);
+  --bk-text-color-light: var(--bk-gray-600);
+  --bk-link-color: #0076a3;
+  --bk-link-hover-color: var(--bk-gray-800);
+  --bk-disabled: var(--bk-gray-400);
+  --bk-page-background: #f7f7f7; // page bg
+  
+  // Borders
+  --bk-borders: var(--bk-gray-border);
+  --bk-borders-light: var(--bk-gray-400);
+  --bk-borders-dark: var(--bk-gray-600);
+
+  // Shadow color palette
+  --bk-shadow-red: #80001c;
+  --bk-shadow-orange: #802a00;
+  --bk-shadow-yellow: #98700c; // B2B palette
+  --bk-shadow-green: #225b15;
+  --bk-shadow-blue: #005675;
+  --bk-shadow-purple: #431f47; 
+
+  // Highlight color palette
+  --bk-highlights-red: #ffe7ec;
+  --bk-highlights-orange: #ffe5cc; // B2B palette
+  --bk-highlights-yellow: #fff4cc; // B2B palette
+  --bk-highlights-green: #dbffcc; // B2B palette
+  --bk-highlights-blue: #cdf3ff; // B2B palette
+  --bk-highlights-purple: #f9ccff; // B2B palette
+
+  // UI Color Tokens
+  --bk-color-ui-medium-background: var(--bk-gray-100);
+  --bk-color-ui-dark-background: var(--bk-gray-800);
+  --bk-color-ui-error-background: #ffebef;
+  --bk-color-ui-alert-background: #eaf5fc;
+  --bk-color-ui-overlay: var(--bk-gray-900);
+
+  // Status color palette
+  --bk-status-red: var(--bk-primary-red); // Error, danger
+  --bk-status-orange: #ff9633; // B2B palette Warning
+  --bk-status-yellow: #ffd332; // B2B palette Warning
+  --bk-status-green: #3fae29; // Success
+  --bk-status-blue: #6EB6FF; // B2B palette Info
+  --bk-status-purple: #9e00b3; // B2B palette Info
+
+  // Accessibility Focus color
+  --bk-accessibility-focus-color: #0f62fe;
+
+}
